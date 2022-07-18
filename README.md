@@ -25,7 +25,7 @@ This is a solution to the [Travel Journal solo project on Scrimba](https://scrim
 
 ### Links
 
-- Live Site URL: [@GitHub Pages]()
+- Live Site URL: [@GitHub Pages](https://nedimperva.github.io/travel-journal/)
 
 ### Getting Started with Create React App
 
