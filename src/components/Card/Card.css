@@ -4,10 +4,12 @@
 
 .card__image > img {
   border-radius: 10px;
+  width: 400px;
+  height: 260px;
 }
 
 .card__image {
-  padding: 1%;
+  padding: 1% 0;
 }
 
 .content--location {
@@ -32,7 +34,7 @@
   justify-content: flex-start;
   font-weight: 700;
   font-size: 1.1rem;
-  margin-bottom: 1%;
+  margin-bottom: 1.5%;
 }
 
 .content--description {
@@ -47,4 +49,20 @@
 
 .card__content {
   padding: 2% 5% 2% 1%;
+}
+
+@media only screen and (max-width: 640px) {
+  .card {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .card__image > img {
+    width: 100%;
+  }
+  .content--description {
+    text-align: justify;
+  }
+  .content--location > p {
+    margin-left: 0px;
+  }
 }
