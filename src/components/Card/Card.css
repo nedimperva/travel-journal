@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+}
+
+.card__image > img {
+  border-radius: 10px;
+}
+
+.card__image {
+  padding: 1%;
+}
+
+.content--location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: -1%;
+}
+
+.content--location > a {
+  padding-left: 1%;
+  color: #918e9b;
+}
+
+.content--location > p {
+  margin-left: -5px;
+  font-weight: 500;
+}
+
+.content--date {
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1%;
+}
+
+.content--description {
+  font-size: 1.2rem;
+}
+
+.content--title {
+  margin: 0 0 2% 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card__content {
+  padding: 2% 5% 2% 1%;
+}
